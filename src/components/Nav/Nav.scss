@@ -18,13 +18,17 @@
     color: #001E00;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 10px 3px 10px 10px;
     line-height: 22px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.35px;
 
     &:first-child {
       padding-left: 10px;
+    }
+
+    &--active {
+      color: rgb(20, 168, 0);
     }
   }
 
@@ -35,10 +39,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 300ms;
+    transition: transform 200ms;
     transform: rotate(180deg);
+    margin-right: 10px;
+    cursor: pointer;
 
-    &:hover {
+    &--active {
       transform: rotate(0);
     }
   }

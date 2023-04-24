@@ -1,37 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Nav.scss';
 import { SearchBar } from '../SearchBar';
+import cn from 'classnames';
+
+const links = [
+  {
+    id: 1,
+    text: 'Find Talent'
+  },
+  {
+    id: 2,
+    text: 'Find Work'
+  },
+  {
+    id: 3,
+    text: 'Why Upwork'
+  },
+]
 
 export const Nav = () => {
+  const [currentLink, setCurrentLink] = useState(0);
+
   return (
     <nav className="nav">
       <ul className="nav__list">
-        <li className="nav__item">
-          <a href="/" className="nav__link">
-            Find Talent
-          </a>
-          <div className="nav__arrow"></div>
-        </li>
+        {links.map(({id, text}) => (
+          <li
+            key={id}
+            className="nav__item"
+            onMouseEnter={() => setCurrentLink(id)}
+            onMouseLeave={() => setCurrentLink(0)}
+          >
+            <a
+              href="/"
+              className={cn(
+                "nav__link",
+                {
+                  "nav__link--active": currentLink === id,
+                }
+              )}
+            >
+              {text}
+            </a>
 
-        <li className="nav__item">
-          <a href="/" className="nav__link">
-            Find Work
-          </a>
-          <div className="nav__arrow"></div>
-        </li>
-
-        <li className="nav__item">
-          <a href="/" className="nav__link">
-            Why Upwork
-          </a>
-          <div className="nav__arrow"></div>
-        </li>
+            <div
+              className={cn(
+                "nav__arrow",
+                {
+                  "nav__arrow--active": currentLink === id,
+                }
+              )}
+            ></div>
+          </li>
+        ))}
 
         <li className="nav__item">
           <a href="/" className="nav__link">
             Enterprise
           </a>
-          <div className="nav__arrow"></div>
         </li>
       </ul>
 
