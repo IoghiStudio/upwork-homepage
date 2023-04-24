@@ -4,11 +4,17 @@
 
   padding: 0 24px;
   height: 64px;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #d5e0d5;
 
   &__logo {
+    display: flex;
     height: 22.5px;
-    width: 80px;
-    background-image: url(../../img/header-logo.png);
+    width: 82px;
+    background-image: url('../../img/header-logo.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 25px;
   }
 }
