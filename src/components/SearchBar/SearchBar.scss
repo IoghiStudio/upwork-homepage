@@ -5,10 +5,22 @@
   height: 40px;
   border: 2px solid #e4ebe4;
   border-radius: 10rem;
+
+  &:hover {
+    background-color: #e4ebe4;
+  }
   
   &__input {
+    box-sizing: border-box;
     display: flex;
-    
+    border-radius: 10rem;
+    letter-spacing: 0.4px;
     width: 237px;
+    border: 0;
+
+    &:focus {
+      outline: none;
+      border: 2px solid gray;
+    }
   }
 }
