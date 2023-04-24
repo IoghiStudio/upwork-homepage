@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Nav.scss';
 import { SearchBar } from '../SearchBar';
 import cn from 'classnames';
+import { LoginMenu } from '../LoginMenu';
 
 const links = [
   {
@@ -63,7 +64,7 @@ export const Nav = () => {
 
       <div className="nav__search">
         <SearchBar />
-        {/* <LoginPage /> */}
+        <LoginMenu />
       </div>
     </nav>
   );

@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  justify-content: space-between;
 
   &__list {
     display: flex;
@@ -47,5 +48,10 @@
     &--active {
       transform: rotate(0);
     }
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
   }
 }
