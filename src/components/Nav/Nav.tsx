@@ -10,24 +10,28 @@ export const Nav = () => {
           <a href="/" className="nav__link">
             Find Talent
           </a>
+          <div className="nav__arrow"></div>
         </li>
 
         <li className="nav__item">
           <a href="/" className="nav__link">
             Find Work
           </a>
+          <div className="nav__arrow"></div>
         </li>
 
         <li className="nav__item">
           <a href="/" className="nav__link">
             Why Upwork
           </a>
+          <div className="nav__arrow"></div>
         </li>
 
         <li className="nav__item">
           <a href="/" className="nav__link">
             Enterprise
           </a>
+          <div className="nav__arrow"></div>
         </li>
       </ul>
 

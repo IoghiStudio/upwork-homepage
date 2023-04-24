@@ -8,17 +8,38 @@
     list-style: none;
   }
 
-  &__item {}
+  &__item {
+    display: flex;
+    align-items: center;
+  }
 
   &__link {
+    display: flex;
     color: #001E00;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     padding: 10px 3px 10px 10px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
 
     &:first-child {
       padding-left: 10px;
+    }
+  }
+
+  &__arrow {
+    width: 12px;
+    height: 12px;
+    background-image: url(../../img/arrow-up.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 300ms;
+    transform: rotate(180deg);
+
+    &:hover {
+      transform: rotate(0);
     }
   }
 }
