@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import { Header } from '../Header/Header';
+import { Footer } from '../Footer';
 
 export const App = () => {
   return (
-    <div className="App">
-      upwork
+    <div className="app">
+      <div className="app__header">
+        <Header />
+      </div>
+
+      <Footer />
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  padding: 0 24px;
+  height: 64px;
+  background-color: aliceblue;
+
+  &__logo {
+    height: 22.5px;
+    width: 80px;
+    background-image: url(../../img/header-logo.png);
+  }
+}
