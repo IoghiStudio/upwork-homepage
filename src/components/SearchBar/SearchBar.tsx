@@ -21,7 +21,7 @@ const dropdownLinks = [
 ];
 
 export const SearchBar = () => {
-  const [isDropdownActive, setIsDropdownActive] = useState(true);
+  const [isDropdownActive, setIsDropdownActive] = useState(false);
 
   return (
     <div className="searchbar">

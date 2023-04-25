@@ -1,0 +1,23 @@
+.howtohire {
+  display: flex;
+  gap: 32px;
+
+  &__anim {
+    height: 370px;
+    width: 460px;
+    background-color: azure;
+    box-shadow: rgba(0, 30,0, 0.35) 0 0 10px 2px;
+  }
+
+  &__details {
+    flex-grow: 1;
+  }
+
+  &__title {
+    margin: 0 0 16px;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    line-height: 72px;
+    font-weight: 400;
+  }
+}
