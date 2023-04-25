@@ -55,8 +55,20 @@ export const Nav = () => {
           </li>
         ))}
 
-        <li className="nav__item">
-          <a href="/" className="nav__link">
+        <li
+          className="nav__item"
+          onMouseEnter={() => setCurrentLink(links.length + 1)}
+          onMouseLeave={() => setCurrentLink(0)}
+        >
+          <a
+            href="/" 
+            className={cn(
+              "nav__link",
+              {
+                "nav__link--active": currentLink === links.length + 1,
+              }
+            )}
+          >
             Enterprise
           </a>
         </li>
