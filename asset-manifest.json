@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/upwork-homepage/static/css/main.b80020e3.css",
+    "main.js": "/upwork-homepage/static/js/main.af9181d0.js",
+    "static/media/rebornhero-image.jpg": "/upwork-homepage/static/media/rebornhero-image.15d245a9b4bba16a3383.jpg",
+    "static/media/microsoft.svg": "/upwork-homepage/static/media/microsoft.7aad257b0fe253034b82.svg",
+    "static/media/airbnb.svg": "/upwork-homepage/static/media/airbnb.552b554b217ae0a96225.svg",
+    "static/media/header-logo.svg": "/upwork-homepage/static/media/header-logo.2fbf56f895c23d8d343e.svg",
+    "static/media/bissell.svg": "/upwork-homepage/static/media/bissell.abbff9e5e40b3a62c55f.svg",
+    "static/media/dropdown-people.svg": "/upwork-homepage/static/media/dropdown-people.dad0193a4699827a001c.svg",
+    "static/media/dropdown-projects.svg": "/upwork-homepage/static/media/dropdown-projects.f293c2ce6cce90684597.svg",
+    "static/media/pin.svg": "/upwork-homepage/static/media/pin.4ebe1ecb74e06b3b2d91.svg",
+    "static/media/writing-notes.svg": "/upwork-homepage/static/media/writing-notes.8c427659c188cbc7da44.svg",
+    "static/media/dropdown-jobs.svg": "/upwork-homepage/static/media/dropdown-jobs.d96357aab27dff67ad4a.svg",
+    "static/media/search.svg": "/upwork-homepage/static/media/search.eee377b999ee7ab0ed11.svg",
+    "static/media/star-green.svg": "/upwork-homepage/static/media/star-green.2a8b082b233e3cb882f7.svg",
+    "static/media/star.svg": "/upwork-homepage/static/media/star.b073d66e61993d8fa736.svg",
+    "index.html": "/upwork-homepage/index.html",
+    "static/media/arrow-up.svg": "/upwork-homepage/static/media/arrow-up.a47910d6f97a1569eb4b.svg",
+    "main.b80020e3.css.map": "/upwork-homepage/static/css/main.b80020e3.css.map",
+    "main.af9181d0.js.map": "/upwork-homepage/static/js/main.af9181d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b80020e3.css",
+    "static/js/main.af9181d0.js"
+  ]
+}
