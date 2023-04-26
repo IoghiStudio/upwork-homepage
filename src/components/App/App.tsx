@@ -6,6 +6,9 @@ import { Subnav } from '../Subnav';
 import { RebrandHero } from '../RebrandHero';
 import { HowToHire } from '../HowToHire';
 import { Category } from '../Category';
+import { Skills } from '../Skills';
+import { UkraineBanner } from '../UkraineBanner';
+
 
 export const App = () => {
   return (
@@ -30,8 +33,17 @@ export const App = () => {
         <div className="app__category">
           <Category />
         </div>
+
+        <div className="app__ukraine">
+          <UkraineBanner />
+        </div>
+
+        <Skills />
       </main>
-      <Footer />
+
+      <div className="app__footer">
+        <Footer />
+      </div>
     </div>
   );
 }

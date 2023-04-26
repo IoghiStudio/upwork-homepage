@@ -1,0 +1,151 @@
+.footer {
+  box-sizing: border-box;
+  width: 95vw;
+  //height will be removed
+  height: 682px;
+  max-width: 1750px;
+  padding: 96px 0;
+  margin: 0 24px 24px;
+  background-color: #001e00;
+  border-radius: 8px;
+  color: #fff;
+
+  &__container {
+    padding: 0 64px;
+    
+    @media (min-width: 1600px) {
+      margin: 0 58px;
+    }
+
+    @media (min-width: 1750px) {
+      margin: 0 138px;
+    }
+  }
+
+  &__columns {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    height: 354px;
+    width: 328px;
+    flex-grow: 1;
+    letter-spacing: 0.32px;
+    line-height: 22px;
+
+    &-title {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  &__item {
+    height: 23px;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 16px;
+    padding: 16px 0;
+    height: 40px;
+    border-bottom: 1px solid #fff;
+
+    &-follow {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    
+    &-download {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    &-title {
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 0.32px;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__icon {
+    width: 14px;
+    height: 14px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+
+    }
+
+    &--fb {
+      background-image: url('../../img/fb-icon.svg');
+    }
+
+    &--in {
+      background-image: url('../../img/fb-icon.svg');
+    }
+
+    &--twt {
+      background-image: url('../../img/twt-logo.svg');
+    }
+
+    &--yt {
+      background-image: url('../../img/yt-logo.svg');
+    }
+
+    &--ig {
+      background-image: url('../../img/ig-logo.svg');
+    }
+
+    &--apple {
+      background-image: url('../../img/apple-icon.svg');
+    }
+
+    &--android {
+      background-image: url('../../img/android-icon.svg');
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    height: 23px;
+    letter-spacing: 0.32px;
+    line-height: 22px;
+
+    &-copy {
+      font-weight: 600;
+    }
+
+    &-text {
+      line-height: 22px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.ukraine {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  height: 211px;
+  padding: 32px;
+  background-color: rgb(242, 245, 242);
+  border-radius: 20px;
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__image {
+    width: 212px;
+    height: 147px;
+    background-image: url('../../img/ukraine-help.svg');
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    margin: 0 0 8px;
+    font-size: 38px;
+    letter-spacing: 0.32px;
+    line-height: 42px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif
+  }
+
+  &__text {
+    margin-bottom: 9px;
+    color: rgb(98, 109, 85);
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.27px;
+  }
+
+  &__button {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 40px;
+    border: 2px solid rgb(16, 138, 0);
+    border-radius: 20px;
+    color: rgb(16, 138, 0);
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+
+    transition: background-color 200ms;
+
+    &:hover {
+      background-color: rgb(242, 245, 242);;
+    }
+  }
+}

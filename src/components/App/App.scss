@@ -9,6 +9,9 @@ body {
 }
 
 .app {
+  display: flex;
+  flex-direction: column;
+
   &__header {
     position: sticky;
     left: 0;
@@ -24,9 +27,8 @@ body {
   &__main {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0 64px;
+    padding: 0 64px 100px;
     max-width: 1600px;
-    height: 200vh;
   }
 
   &__rebrandhero {
@@ -39,5 +41,15 @@ body {
 
   &__category {
     margin: 0 0 80px;
+  }
+
+
+
+  &__ukraine {
+    margin-top: 100px;
+  }
+
+  &__footer {
+    align-self: center;
   }
 }

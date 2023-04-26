@@ -1,0 +1,53 @@
+.skills {
+  height: 688px;
+  padding-top: 100px;
+
+  &__columns {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__titles {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.12px;
+    font-weight: 600;
+    color: rgb(213, 224, 213);
+    transition: color 0.2s;
+
+
+    &--active {
+      color: #14a800;
+    }
+
+    &:hover {
+      color: #14a800;
+    }
+  }
+
+  &__column {
+    flex-grow: 1;
+  }
+
+  &__item {
+    margin-bottom: 15px;
+    color: #5e6d55;
+    font-size: 24px;
+    letter-spacing: 0.32px;
+    line-height: 28px;
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #14a800;
+    }
+  }
+}
