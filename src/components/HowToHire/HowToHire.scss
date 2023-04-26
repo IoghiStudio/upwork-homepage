@@ -4,13 +4,14 @@
 
   &__anim {
     height: 370px;
-    width: 460px;
-    background-color: azure;
-    box-shadow: rgba(0, 30,0, 0.35) 0 0 10px 2px;
+    width: 600px;
+    background-color: #d5e9f3;
+    box-shadow: rgba(0, 30,0, 0.45) 0 0 10px 2px;
   }
 
   &__details {
     flex-grow: 1;
+    padding-bottom: 10px;
   }
 
   &__title {
@@ -18,6 +19,92 @@
     font-size: 40px;
     letter-spacing: -1.2px;
     line-height: 72px;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &--pin {
+      background-image: url('../../img/pin.svg');
+    }
+    
+    &--star {
+      background-image: url('../../img/star.svg');
+    }
+
+    &--notes {
+      background-image: url('../../img/writing-notes.svg');
+    }
+  }
+
+  &__item {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    &-details {
+
+    }
+
+    &-title {
+      margin: 0 0 4px;
+      font-size: 20px;
+      letter-spacing: 0.3px;
+      line-height: 24px;
+      font-weight: 600;
+    }
+
+    &-text {
+      font-size: 14px;
+      letter-spacing: 0.32px;
+      line-height: 20px;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__button {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+
+    &--sign {
+      width: 160px;
+      background-color: #108a00;
+      color: #fff;
+      transition: background-color 200ms;
+
+      &:hover {
+        background-color: #14a803;
+      }
+    }
+
+    &--learn {
+      width: 170px;
+      border: 2px solid #108a00;
+      color: #108a00;;
+    }
   }
 }

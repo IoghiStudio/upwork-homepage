@@ -5,6 +5,7 @@ import { Footer } from '../Footer';
 import { Subnav } from '../Subnav';
 import { RebrandHero } from '../RebrandHero';
 import { HowToHire } from '../HowToHire';
+import { Category } from '../Category';
 
 export const App = () => {
   return (
@@ -13,14 +14,22 @@ export const App = () => {
         <Header />
       </div>
 
-      <Subnav />
+      <div className="app__subnav">
+        <Subnav />
+      </div>
 
       <main className="app__main">
         <div className="app__rebrandhero">
           <RebrandHero />
         </div>
 
-        <HowToHire />
+        <div className="app__howtohire">
+          <HowToHire />
+        </div>
+
+        <div className="app__category">
+          <Category />
+        </div>
       </main>
       <Footer />
     </div>

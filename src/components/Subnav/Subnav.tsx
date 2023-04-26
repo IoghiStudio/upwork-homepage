@@ -1,8 +1,9 @@
-import React from "react";
+import { useState } from "react";
 import './Subnav.scss';
 
 
 export const Subnav = () => {
+  const [isDropdownActive, setIsDropdownActive] = useState(false);
 
   return (
     <nav className="subnav">
@@ -27,12 +28,20 @@ export const Subnav = () => {
           Admin & Customer Support
         </li>
 
-        <li className="subnav__item">
+        <li
+          className="subnav__item"
+          onMouseEnter={() => setIsDropdownActive(true)}
+          onMouseLeave={() => setIsDropdownActive(false)}
+        >
           More 
 
           <div className="subnav__arrow"></div>
         </li>
       </ul>
+
+      {/* {isDropdownActive && (
+
+      )} */}
     </nav>
   )
 }

@@ -22,9 +22,14 @@ const dropdownLinks = [
 
 export const SearchBar = () => {
   const [isDropdownActive, setIsDropdownActive] = useState(false);
+  const [onHover, setOnHover] = useState(false);
 
   return (
-    <div className="searchbar">
+    <div
+      className="searchbar"
+      onMouseEnter={() => setOnHover(true)}
+      onMouseLeave={() => setOnHover(false)}
+    >
 
       <div className="searchbar__icon"></div>
       
@@ -37,6 +42,10 @@ export const SearchBar = () => {
           type="text"
         />
       </label>
+
+      {!onHover && !isDropdownActive && (
+        <div className="searchbar__divider"></div>
+      )}
 
       <div
         onClick={() => setIsDropdownActive(!isDropdownActive)}

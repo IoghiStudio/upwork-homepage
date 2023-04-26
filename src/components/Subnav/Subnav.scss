@@ -1,5 +1,7 @@
 .subnav {
+  position: relative;
   padding: 10px 14px;
+  background-color: #fff;
 
   &__list {
     display: flex;
@@ -11,12 +13,24 @@
 
   &__item {
     padding: 10px;
-    line-height: 24px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 
     &:last-child {
       display: flex;
       align-items: center;
       gap: 5px;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 
@@ -29,5 +43,9 @@
     background-repeat: no-repeat;
     transform: rotate(180deg);
     cursor: pointer;
+  }
+
+  &-options {
+
   }
 }
