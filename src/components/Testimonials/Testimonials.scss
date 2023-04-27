@@ -1,0 +1,99 @@
+.testimonials {
+
+  &__title {
+    margin: 0 0 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.3px;
+  }
+
+  &__banners {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    max-width: 685px;
+    height: 450px;
+    padding: 25px;
+    border-radius: 10px;
+
+    &--nasdaq {
+      background-color: #13544e;
+    }
+
+    &--microsoft {
+      background-color: #bc511b;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &--nasdaq {
+      background-image: url('../../img/nasdaq-light.svg');
+    }
+
+    &--microsoft {
+      background-image: url('../../img/microsoft-lg-light.svg');
+    }
+  }
+
+  &__desc {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-size: 26px;
+    line-height: 25px;
+    letter-spacing: -0.65px;
+    color: #fff;
+  }
+
+  &__author {
+    color: #d5e0d5;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 23px;
+  }
+
+  &__text {
+    color: #d5e0d5;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 22px;
+  }
+
+  &__divider {
+    margin: 12px 0 17px;
+    border-bottom: 1px solid #fff;
+  }
+
+  &__results {
+    display: flex;
+  }
+
+  &__result {
+    padding-right: 40px;
+    flex-grow: 1;
+    width: 0;
+
+    &-title {
+      margin-bottom: 13px;
+      color: #fff;
+      font-size: 26px;
+      line-height: 25px;
+      letter-spacing: -0.78px;
+    }
+  }
+}

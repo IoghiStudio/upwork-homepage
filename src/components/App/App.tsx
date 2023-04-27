@@ -8,6 +8,7 @@ import { HowToHire } from '../HowToHire';
 import { Category } from '../Category';
 import { Skills } from '../Skills';
 import { UkraineBanner } from '../UkraineBanner';
+import { Testimonials } from '../Testimonials';
 
 
 export const App = () => {
@@ -32,6 +33,10 @@ export const App = () => {
 
         <div className="app__category">
           <Category />
+        </div>
+
+        <div className="app__testimonials">
+          <Testimonials />
         </div>
 
         <div className="app__ukraine">
