@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/upwork-homepage/static/css/main.8d8c11d4.css",
-    "main.js": "/upwork-homepage/static/js/main.366827f1.js",
+    "main.css": "/upwork-homepage/static/css/main.0548602b.css",
+    "main.js": "/upwork-homepage/static/js/main.5b546a94.js",
     "static/media/rebornhero-image.jpg": "/upwork-homepage/static/media/rebornhero-image.15d245a9b4bba16a3383.jpg",
     "static/media/ukraine-help.svg": "/upwork-homepage/static/media/ukraine-help.da2ef81a023576a08b56.svg",
+    "static/media/microsoft-lg-light.svg": "/upwork-homepage/static/media/microsoft-lg-light.c9a3d9c5ba0205a1c9ae.svg",
     "static/media/microsoft.svg": "/upwork-homepage/static/media/microsoft.7aad257b0fe253034b82.svg",
     "static/media/airbnb.svg": "/upwork-homepage/static/media/airbnb.552b554b217ae0a96225.svg",
+    "static/media/nasdaq-light.svg": "/upwork-homepage/static/media/nasdaq-light.cc9890430cbde5dea2c4.svg",
     "static/media/header-logo.svg": "/upwork-homepage/static/media/header-logo.2fbf56f895c23d8d343e.svg",
     "static/media/bissell.svg": "/upwork-homepage/static/media/bissell.abbff9e5e40b3a62c55f.svg",
     "static/media/dropdown-people.svg": "/upwork-homepage/static/media/dropdown-people.dad0193a4699827a001c.svg",
@@ -24,11 +26,11 @@
     "static/media/star.svg": "/upwork-homepage/static/media/star.b073d66e61993d8fa736.svg",
     "index.html": "/upwork-homepage/index.html",
     "static/media/arrow-up.svg": "/upwork-homepage/static/media/arrow-up.a47910d6f97a1569eb4b.svg",
-    "main.8d8c11d4.css.map": "/upwork-homepage/static/css/main.8d8c11d4.css.map",
-    "main.366827f1.js.map": "/upwork-homepage/static/js/main.366827f1.js.map"
+    "main.0548602b.css.map": "/upwork-homepage/static/css/main.0548602b.css.map",
+    "main.5b546a94.js.map": "/upwork-homepage/static/js/main.5b546a94.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d8c11d4.css",
-    "static/js/main.366827f1.js"
+    "static/css/main.0548602b.css",
+    "static/js/main.5b546a94.js"
   ]
 }
