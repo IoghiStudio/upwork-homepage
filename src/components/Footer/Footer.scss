@@ -50,6 +50,11 @@
 
   &__item {
     height: 23px;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__social {
