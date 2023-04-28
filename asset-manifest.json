@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/upwork-homepage/static/css/main.685bd3a7.css",
-    "main.js": "/upwork-homepage/static/js/main.7d169102.js",
+    "main.css": "/upwork-homepage/static/css/main.d512fbce.css",
+    "main.js": "/upwork-homepage/static/js/main.22869e88.js",
     "static/media/whyupwork-image.png": "/upwork-homepage/static/media/whyupwork-image.cbae5ce2543da16f46e4.png",
     "static/media/rebornhero-image.jpg": "/upwork-homepage/static/media/rebornhero-image.15d245a9b4bba16a3383.jpg",
     "static/media/ukraine-help.svg": "/upwork-homepage/static/media/ukraine-help.da2ef81a023576a08b56.svg",
@@ -31,11 +31,11 @@
     "index.html": "/upwork-homepage/index.html",
     "static/media/check-icon.svg": "/upwork-homepage/static/media/check-icon.307a69d5adc365a0d35b.svg",
     "static/media/arrow-up.svg": "/upwork-homepage/static/media/arrow-up.a47910d6f97a1569eb4b.svg",
-    "main.685bd3a7.css.map": "/upwork-homepage/static/css/main.685bd3a7.css.map",
-    "main.7d169102.js.map": "/upwork-homepage/static/js/main.7d169102.js.map"
+    "main.d512fbce.css.map": "/upwork-homepage/static/css/main.d512fbce.css.map",
+    "main.22869e88.js.map": "/upwork-homepage/static/js/main.22869e88.js.map"
   },
   "entrypoints": [
-    "static/css/main.685bd3a7.css",
-    "static/js/main.7d169102.js"
+    "static/css/main.d512fbce.css",
+    "static/js/main.22869e88.js"
   ]
 }
