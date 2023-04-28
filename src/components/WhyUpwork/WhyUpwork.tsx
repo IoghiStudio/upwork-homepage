@@ -69,7 +69,45 @@ export const WhyUpwork = () => {
 
       <div className="whyupwork__image"></div>
 
-      <div className="whyupwork__green"></div>
+      <div className="whyupwork__green">
+        <div className="whyupwork__awards">
+          <div className="whyupwork__awards-area">
+            <h3 className="whyupwork__awards-maintitle">
+              <span>We're</span>
+              <span>the world’s work</span>
+              <span>marketplace</span>
+            </h3>
+
+            <div className="whyupwork__awards-item">
+              <div className="whyupwork__awards-icon whyupwork__awards-icon--star"></div>
+
+              <div className="whyupwork__awards-info">
+                <div className="whyupwork__awards-title">
+                  4.9/5
+                </div>
+
+                <div className="whyupwork__awards-text">
+                  Clients rate professionals on Upwo
+                </div>
+              </div>
+            </div>
+
+            <div className="whyupwork__awards-item">
+              <div className="whyupwork__awards-icon whyupwork__awards-icon--cycle"></div>
+
+              <div className="whyupwork__awards-info">
+                <div className="whyupwork__awards-title">
+                  Award winner
+                </div>
+
+                <div className="whyupwork__awards-text">
+                  G2’s 2021 Best Software Awards
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

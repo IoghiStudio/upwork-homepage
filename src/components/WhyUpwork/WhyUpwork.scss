@@ -6,7 +6,7 @@
   
   &__image {
     position: absolute;
-    left: 605px;
+    left: 640px;
     top: -50px;
     width: 360px;
     height: 700px;
@@ -114,5 +114,86 @@
     width: 419px;
     height: 100%;
     border-radius: 8px;
+    color: #fff;
+  }
+
+  &__awards {
+    box-sizing: border-box;
+    display: flex;
+    padding: 50px 0;
+    height: 100%;
+    
+    &-area {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+      box-sizing: border-box;
+      padding-left: 32px;
+      margin-bottom: 30px;
+      height: 273px;
+      width: 345px;
+    }
+
+    &-maintitle {
+      margin: 0 0 30px;
+      font-size: 33px;
+      line-height: 33px;
+      letter-spacing: 0.165px;
+      font-weight: 600;
+    }
+
+    &-item {
+      display: flex;
+      height: 73px;
+
+      &:last-child {
+        height: 71px;
+      }
+    }
+    
+    &-icon {
+      width: 39px;
+      height: 39px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      &--star {
+        background-image: url('../../img/star-white.svg');
+      }
+
+      &--cycle {
+        width: 30px;
+        height: 30px;
+        background-image: url('../../img/star-white.svg');
+      }
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+
+    &-title {
+      margin: 0 0 10px;
+      letter-spacing: 0.165px;
+      font-size: 33px;
+      line-height: 33px;
+      font-weight: 600;
+
+      &:last-child {
+        font-size: 38px;
+        line-height: 38px;
+        letter-spacing: 0.19px;
+      }
+    }
+
+    &-text {
+      margin-bottom: 8px;
+      letter-spacing: 0.32px;
+      font-size: 16px;
+      line-height: 22px;
+    }
   }
 }
