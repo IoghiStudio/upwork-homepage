@@ -180,9 +180,10 @@
       letter-spacing: 0.165px;
       font-size: 33px;
       line-height: 33px;
-      font-weight: 600;
+      font-weight: 400;
 
-      &:last-child {
+      //last-child was not working
+      &--second {
         font-size: 38px;
         line-height: 38px;
         letter-spacing: 0.19px;
@@ -191,7 +192,7 @@
 
     &-text {
       margin-bottom: 8px;
-      letter-spacing: 0.32px;
+      letter-spacing: -0.06px;
       font-size: 16px;
       line-height: 22px;
     }

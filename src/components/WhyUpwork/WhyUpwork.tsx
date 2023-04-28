@@ -87,7 +87,7 @@ export const WhyUpwork = () => {
                 </div>
 
                 <div className="whyupwork__awards-text">
-                  Clients rate professionals on Upwo
+                  Clients rate professionals on Upwork
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export const WhyUpwork = () => {
               <div className="whyupwork__awards-icon whyupwork__awards-icon--cycle"></div>
 
               <div className="whyupwork__awards-info">
-                <div className="whyupwork__awards-title">
+                <div className="whyupwork__awards-title whyupwork__awards-title--second">
                   Award winner
                 </div>
 
