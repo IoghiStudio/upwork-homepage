@@ -10,6 +10,7 @@ import { Skills } from '../Skills';
 import { UkraineBanner } from '../UkraineBanner';
 import { Testimonials } from '../Testimonials';
 import { WhyUpwork } from '../WhyUpwork';
+import { ForTalent } from '../ForTalent';
 
 
 export const App = () => {
@@ -32,13 +33,15 @@ export const App = () => {
           <HowToHire />
         </div>
 
+        <div className="app__category">
+          <Category />
+        </div>
+
         <div className="app__whyupwork">
           <WhyUpwork />
         </div>
 
-        <div className="app__category">
-          <Category />
-        </div>
+        <ForTalent />
 
         <div className="app__testimonials">
           <Testimonials />
