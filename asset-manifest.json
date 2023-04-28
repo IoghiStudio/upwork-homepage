@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/upwork-homepage/static/css/main.0548602b.css",
+    "main.css": "/upwork-homepage/static/css/main.be802eb4.css",
     "main.js": "/upwork-homepage/static/js/main.5b546a94.js",
     "static/media/rebornhero-image.jpg": "/upwork-homepage/static/media/rebornhero-image.15d245a9b4bba16a3383.jpg",
     "static/media/ukraine-help.svg": "/upwork-homepage/static/media/ukraine-help.da2ef81a023576a08b56.svg",
@@ -26,11 +26,11 @@
     "static/media/star.svg": "/upwork-homepage/static/media/star.b073d66e61993d8fa736.svg",
     "index.html": "/upwork-homepage/index.html",
     "static/media/arrow-up.svg": "/upwork-homepage/static/media/arrow-up.a47910d6f97a1569eb4b.svg",
-    "main.0548602b.css.map": "/upwork-homepage/static/css/main.0548602b.css.map",
+    "main.be802eb4.css.map": "/upwork-homepage/static/css/main.be802eb4.css.map",
     "main.5b546a94.js.map": "/upwork-homepage/static/js/main.5b546a94.js.map"
   },
   "entrypoints": [
-    "static/css/main.0548602b.css",
+    "static/css/main.be802eb4.css",
     "static/js/main.5b546a94.js"
   ]
 }
