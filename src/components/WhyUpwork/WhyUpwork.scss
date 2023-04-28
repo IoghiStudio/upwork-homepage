@@ -62,10 +62,18 @@
 
 
     &--star {
-      background-image: url('../../img//star-white.svg');
+      background-image: url('../../img/star-white.svg');
     }
-    &--money {}
-    &--check {}
+
+    &--money {
+      width: 13px;
+      height: 13px;
+      background-image: url('../../img/dollar-icon.svg');
+    }
+
+    &--check {
+      background-image: url('../../img/check-icon.svg');
+    }
   }
 
   &__info {
