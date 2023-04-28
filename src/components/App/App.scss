@@ -26,9 +26,12 @@ body {
 
   &__main {
     box-sizing: border-box;
-    margin: 0 auto;
     padding: 0 64px 100px;
     max-width: 1600px;
+
+    @media (min-width: 1600px) {
+      margin: 0 auto;
+    }
   }
 
   &__rebrandhero {

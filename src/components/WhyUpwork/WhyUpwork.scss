@@ -25,21 +25,21 @@
     font-weight: 600;
   }
 
-  &__proof-list {
+  &__list {
     display: flex;
     flex-direction: column;
     height: 100%;
     padding-right: 310px;
   }
 
-  &__proof-item {
+  &__item {
     display: flex;
     height: 120px;
   }
 
-  &__proof-icon {
-    width: 20px;
-    height: 20px;
+  &__icon {
+    width: 16px;
+    height: 16px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,13 +50,25 @@
       margin: 5px 15px 0 0;
     }
 
+    &-bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20px;
+      height: 20px;
+      background-color: #001e00;;
+      border-radius: 50%;
+    }
 
-    &--star {}
+
+    &--star {
+      background-image: url('../../img//star-white.svg');
+    }
     &--money {}
     &--check {}
   }
 
-  &__proof-info {
+  &__info {
     display: flex;
     flex-direction: column;
   }

@@ -10,13 +10,15 @@ export const WhyUpwork = () => {
           <span>turn to Upwork</span>
         </h2>
 
-        <div className="whyupwork__proof-list">
-          <div className="whyupwork__proof-item">
-            <div className="whyupwork__proof-icon-container">
-              <div className="whyupwork__proof-icon whyupwork__proof-icon--star"></div>
+        <div className="whyupwork__list">
+          <div className="whyupwork__item">
+            <div className="whyupwork__icon-container">
+              <div className="whyupwork__icon-bg">
+                <div className="whyupwork__icon  whyupwork__icon--star"></div>
+              </div>
             </div>
 
-            <div className="whyupwork__proof-info">
+            <div className="whyupwork__info">
               <h3 className="whyupwork__proof-title">
                 Proof of quality
               </h3>
@@ -27,12 +29,14 @@ export const WhyUpwork = () => {
             </div>
           </div>
 
-          <div className="whyupwork__proof-item">
-            <div className="whyupwork__proof-icon-container">
-              <div className="whyupwork__proof-icon whyupwork__proof-icon--money"></div>
+          <div className="whyupwork__item">
+            <div className="whyupwork__icon-container">
+              <div className="whyupwork__icon-bg">
+                <div className="whyupwork__icon  whyupwork__icon--money"></div>
+              </div>
             </div>
 
-            <div className="whyupwork__proof-info">
+            <div className="whyupwork__info">
               <h3 className="whyupwork__proof-title">
                 No cost until you hire
               </h3>
@@ -43,12 +47,14 @@ export const WhyUpwork = () => {
             </div>
           </div>
 
-          <div className="whyupwork__proof-item">
-            <div className="whyupwork__proof-icon-container">
-              <div className="whyupwork__proof-icon whyupwork__proof-icon--check"></div>
+          <div className="whyupwork__item">
+            <div className="whyupwork__icon-container">
+              <div className="whyupwork__icon-bg">
+                <div className="whyupwork__icon whyupwork__icon--check"></div>
+              </div>
             </div>
 
-            <div className="whyupwork__proof-info">
+            <div className="whyupwork__info">
               <h3 className="whyupwork__proof-title">
                 Safe and secure
               </h3>
