@@ -93,7 +93,7 @@ export const WhyUpwork = () => {
             </div>
 
             <div className="whyupwork__awards-item">
-              <div className="whyupwork__awards-icon whyupwork__awards-icon--cycle"></div>
+              <div className="whyupwork__awards-icon whyupwork__awards-icon--g2"></div>
 
               <div className="whyupwork__awards-info">
                 <div className="whyupwork__awards-title whyupwork__awards-title--second">

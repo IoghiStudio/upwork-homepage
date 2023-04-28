@@ -155,17 +155,18 @@
       width: 39px;
       height: 39px;
       background-position: center;
-      background-size: cover;
+      background-size: 135%;
       background-repeat: no-repeat;
 
       &--star {
         background-image: url('../../img/star-white.svg');
       }
 
-      &--cycle {
+      &--g2 {
         width: 30px;
         height: 30px;
-        background-image: url('../../img/star-white.svg');
+        background-size: contain;
+        background-image: url('../../img/g2-icon.svg');
       }
     }
 
