@@ -1,8 +1,20 @@
 .whyupwork {
+  position: relative;
   display: flex;
   padding: 0 64px;
   height: 634px;
   
+  &__image {
+    position: absolute;
+    left: 605px;
+    top: -50px;
+    width: 360px;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../img/whyupwork-image.png');
+  }
 
   &__gray {
     display: flex;

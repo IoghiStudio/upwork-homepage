@@ -67,6 +67,8 @@ export const WhyUpwork = () => {
         </div>
       </div>
 
+      <div className="whyupwork__image"></div>
+
       <div className="whyupwork__green"></div>
     </div>
   )
