@@ -1,0 +1,67 @@
+import './WhyUpwork.scss';
+
+
+export const WhyUpwork = () => {
+  return (
+    <div className="whyupwork">
+      <div className="whyupwork__gray">
+        <h2 className="whyupwork__title">
+          <span>Why businesses</span>
+          <span>turn to Upwork</span>
+        </h2>
+
+        <div className="whyupwork__proof-list">
+          <div className="whyupwork__proof-item">
+            <div className="whyupwork__proof-icon-container">
+              <div className="whyupwork__proof-icon whyupwork__proof-icon--star"></div>
+            </div>
+
+            <div className="whyupwork__proof-info">
+              <h3 className="whyupwork__proof-title">
+                Proof of quality
+              </h3>
+
+              <div className="whyupwork__proof-text">
+                Check any pro’s work samples, client reviews, and identity verification.
+              </div>
+            </div>
+          </div>
+
+          <div className="whyupwork__proof-item">
+            <div className="whyupwork__proof-icon-container">
+              <div className="whyupwork__proof-icon whyupwork__proof-icon--money"></div>
+            </div>
+
+            <div className="whyupwork__proof-info">
+              <h3 className="whyupwork__proof-title">
+                No cost until you hire
+              </h3>
+
+              <div className="whyupwork__proof-text">
+                Interview potential fits for your job, negotiate rates, and only pay for work you approve.
+              </div>
+            </div>
+          </div>
+
+          <div className="whyupwork__proof-item">
+            <div className="whyupwork__proof-icon-container">
+              <div className="whyupwork__proof-icon whyupwork__proof-icon--check"></div>
+            </div>
+
+            <div className="whyupwork__proof-info">
+              <h3 className="whyupwork__proof-title">
+                Safe and secure
+              </h3>
+
+              <div className="whyupwork__proof-text">
+                Focus on your work knowing we help protect your data and privacy. We’re here with 24/7 support if you need it.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="whyupwork__green"></div>
+    </div>
+  )
+}

@@ -1,0 +1,89 @@
+.whyupwork {
+  display: flex;
+  padding: 0 64px;
+  height: 634px;
+  
+
+  &__gray {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 832px;
+    padding: 50px 0 50px 32px;
+    height: 100%;
+    margin-right: 29px;
+    border-radius: 8px;
+    background-color: rgb(242, 245, 242);
+  }
+
+  &__title {
+    margin: 30px 0;
+    font-size: 72px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -2.16px;
+    line-height: 72px;
+    font-weight: 600;
+  }
+
+  &__proof-list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-right: 310px;
+  }
+
+  &__proof-item {
+    display: flex;
+    height: 120px;
+  }
+
+  &__proof-icon {
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &-container {
+      width: 20px;
+      height: 115px;
+      margin: 5px 15px 0 0;
+    }
+
+
+    &--star {}
+    &--money {}
+    &--check {}
+  }
+
+  &__proof-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__proof-title {
+    margin: 0 0 10px;
+    font-size: 36px;
+    letter-spacing: 0.18px;
+    line-height: 36px;
+    font-weight: 500;
+  }
+
+  &__proof-text {
+    margin-bottom: 30px;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 22px;
+    color: rgb(94, 109, 85);
+  }
+
+
+
+
+  &__green {
+    background-color: rgb(20, 168, 0);
+    width: 419px;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
