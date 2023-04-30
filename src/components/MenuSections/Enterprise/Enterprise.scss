@@ -1,12 +1,26 @@
 .enterprise {
+  position: relative;
   box-sizing: border-box;
   width: 1280px;
-  height: 510px;
+  height: 560px;
   color: #fff;
   padding: 35px 45px 35px 35px;
   border-radius: 8px;
   background-color: #13544e;
 
+  &__image {
+    position: absolute;
+    top: 0px;
+    left: 720px;
+    width: 560px;
+    height: 560px;
+    background-image: url('../../../img/images/enterprise-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
 
   &__headline {
     margin-bottom: 35px;
@@ -29,7 +43,7 @@
 
   &__subtitle {
     font-size: 18px;
-    line-height: 19px;
+    line-height: 23.4px;
     letter-spacing: 0.6px;
   }
 

@@ -4,6 +4,7 @@ import './Enterprise.scss';
 export const Enterprise = () => {
   return (
     <div className="enterprise">
+      <div className="enterprise__image"></div>
       <div className="enterprise__headline">Enterprise Suite</div>
 
       <h1 className="enterprise__title">
@@ -13,7 +14,13 @@ export const Enterprise = () => {
       </h1>
 
       <div className="enterprise__subtitle">
-        Access the top 1% of talent on Upwork, and a full suite of hybrid workforce management tools. This is how innovation works now.
+        <div>
+          Access the top 1% of talent on Upwork, and a full suite of hybrid workforce
+        </div>
+
+        <div>
+          management tools. This is how innovation works now.
+        </div>
       </div>
 
       <div className="enterprise__text">
