@@ -1,6 +1,7 @@
 .testimonials {
   box-sizing: border-box;
   width: 1280px;
+  // background-color: #d5e0d5;
 
   &__title {
     margin: 0 0 30px;
@@ -22,7 +23,7 @@
     justify-content: space-between;
 
     box-sizing: border-box;
-    max-width: 685px;
+    width: 588px;
     height: 450px;
     padding: 25px;
     border-radius: 10px;

@@ -1,80 +1,102 @@
+import cn from 'classnames';
 import './Testimonials.scss';
+
+
+const bannersInfo = [
+  {
+    background: 'nasdaq',
+    logo: 'nasdaq',
+    description: '“Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”',
+    author: 'Josh Machiz, Chief Digital Officer',
+    results: [
+      {
+        title: 'Emmy Winning',
+        text: 'Facebook Watch program',
+      },
+      {
+        title: 'Millions',
+        text: 'of impressions generated per client per IPO',
+      },
+    ]
+  },
+  {
+    logo: 'microsoft',
+    background: 'microsoft',
+    description: '“One of the advantages of utilizing freelancers is finding talent with different skills quickly as our needs change.”',
+    author: 'Carol Taylor, Director of Content Experience',
+    results: [
+      {
+        title: '50% Faster',
+        text: 'launch of projects',
+      },
+      {
+        title: '10,000',
+        text: 'projects completed',
+      },
+    ]
+  }
+]
 
 export const Testimonials = () => {
   return (
     <div className="testimonials">
       <h2 className="testimonials__title">
-        <span>Trusted by leading</span>
-        <span>brands and startups</span>
+        <div>Trusted by leading</div>
+        <div>brands and startups</div>
       </h2>
 
       <div className="testimonials__banners">
-        <div
-          className="testimonials__banner testimonials__banner--nasdaq"
-        >
-          <div className="testimonials__top">
-            <div className="testimonials__logo testimonials__logo--nasdaq"></div>
+        {bannersInfo.map(banner => {
+          const {
+            background,
+            logo,
+            description,
+            author,
+            results,
+          } = banner;
 
-            <div className="testimonials__desc">
-              “Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”
-            </div>
-
-            <div className="testimonials__author">
-              Josh Machiz, Chief Digital Officer
-            </div>
-          </div>
-
-          <div className="testimonials__bottom">
-            <div className="testimonials__text">Results</div>
-            <div className="testimonials__divider"></div>
-
-            <div className="testimonials__results">
-              <div className="testimonials__result">
-                <div className="testimonials__result-title">Emmy Winning</div>
-                <div className="testimonials__text">Facebook Watch program</div>
+          return (
+            <div
+              className={cn(
+                "testimonials__banner",
+                `testimonials__banner--${background}`
+              )}
+            >
+              <div className="testimonials__top">
+                <div className={cn(
+                  "testimonials__logo",
+                  `testimonials__logo--${logo}`
+                )}></div>
+    
+                <div className="testimonials__desc">
+                  {description}
+                </div>
+    
+                <div className="testimonials__author">
+                  {author}
+                </div>
               </div>
+    
+              <div className="testimonials__bottom">
+                <div className="testimonials__text">Results</div>
+                <div className="testimonials__divider"></div>
+    
+                <div className="testimonials__results">
+                  {results.map(result => {
+                    const { title, text } = result;
 
-              <div className="testimonials__result">
-                <div className="testimonials__result-title">Millions</div>
-                <div className="testimonials__text">of impressions generated per client per IPO</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="testimonials__banner testimonials__banner--microsoft"
-        >
-          <div className="testimonials__top">
-            <div className="testimonials__logo testimonials__logo--microsoft"></div>
-
-          
-            <div className="testimonials__desc">
-              “One of the advantages of utilizing freelancers is finding talent with different skills quickly as our needs change.”
-            </div>
-
-            <div className="testimonials__author">
-            Carol Taylor, Director of Content Experience
-            </div>
-          </div>
-
-          <div className="testimonials__bottom">
-            <div className="testimonials__text">Results</div>
-            <div className="testimonials__divider"></div>
-
-            <div className="testimonials__results">
-              <div className="testimonials__result">
-                <div className="testimonials__result-title">50% Faster</div>
-                <div className="testimonials__text">launch of projects</div>
-              </div>
-
-              <div className="testimonials__result">
-                <div className="testimonials__result-title">10,000</div>
-                <div className="testimonials__text">projects completed</div>
+                    return (
+                      <div className="testimonials__result">
+                      <div className="testimonials__result-title">{title}</div>
+                      <div className="testimonials__text">{text}</div>
+                    </div>
+                    )
+                  })}
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+          )
+        })}
       </div>
     </div>
   );
