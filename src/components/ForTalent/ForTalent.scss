@@ -9,7 +9,10 @@
   &__image {
     width: 640px;
     height: 100%;
-    background-color: #d5e9f3;
+    background-image: url('../../img/nature-woods-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     box-shadow: rgba(0, 30,0, 0.45) 0 0 10px 2px;
 
   }

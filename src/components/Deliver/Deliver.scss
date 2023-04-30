@@ -4,7 +4,10 @@
   height: 616px;
   padding: 30px;
   color: #fff;
-  background-color: rgb(59, 63, 41);
+  background-image: url('../../img/nature-autumn-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 8px;
 
   &__headline {

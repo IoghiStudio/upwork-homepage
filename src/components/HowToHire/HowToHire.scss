@@ -7,7 +7,10 @@
   &__anim {
     height: 370px;
     width: 600px;
-    background-color: #d5e9f3;
+    background-image: url('../../img/desktop-cover-image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     box-shadow: rgba(0, 30,0, 0.45) 0 0 10px 2px;
   }
 
