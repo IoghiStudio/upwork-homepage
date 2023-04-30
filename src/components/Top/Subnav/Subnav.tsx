@@ -9,7 +9,13 @@ const subnavItems = [
   'Admin & Customer Support',
 ];
 
-const dropdownItems
+const dropdownItems = [
+  'Finnance & Accounting',
+  'HR & Training',
+  'Legal',
+  'Engineering & Architecture',
+  'See all specializations',
+];
 
 export const Subnav = () => {
   const [isDropdownHovered, setIsDropdownHovered] = useState(false);
@@ -32,15 +38,18 @@ export const Subnav = () => {
           onClick={() => setIsDropdownClicked(!isDropdownClicked)}
         >
           More 
-
           <div className="subnav__arrow"></div>
         </li>
       </ul>
 
       {(isDropdownHovered || isDropdownClicked) && (
-        <div className="subnav__dropdown">
-
-        </div>
+        <ul className="subnav__dropdown">
+          {dropdownItems.map(item => (
+            <li key={item} className="subnav__dropdown-item">
+              {item}
+            </li>
+          ))}
+        </ul>
       )}
     </nav>
   )
