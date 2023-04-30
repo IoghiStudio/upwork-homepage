@@ -27,13 +27,11 @@ body {
   }
 
   &__main {
+    align-self: center;
     box-sizing: border-box;
     padding: 0 64px 100px;
     max-width: 1600px;
-
-    @media (min-width: 1700px) {
-      margin: 0 auto;
-    }
+    max-width: 1520px;
   }
 
   &__rebrandhero {
