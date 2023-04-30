@@ -12,6 +12,7 @@
   &__item {
     display: flex;
     align-items: center;
+    padding-right: 10px;
   }
 
   &__link {
@@ -42,7 +43,6 @@
     background-repeat: no-repeat;
     transition: transform 200ms;
     transform: rotate(180deg);
-    margin-right: 10px;
     cursor: pointer;
 
     &--active {
