@@ -1,6 +1,5 @@
 import './Skills.scss';
 
-
 const skillsItems = [
   'Data Entry Specialist',
   'Video Editors',
@@ -35,7 +34,6 @@ const skillsItems = [
   'Web Designer',
   'Wordpress Developer',
 ]
-
 
 export const Skills = () => {
   return (

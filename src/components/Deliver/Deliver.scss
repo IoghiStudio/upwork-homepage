@@ -24,12 +24,23 @@
       margin-bottom: 20px;
       font-size: 36px;
       line-height: 36px;
-      letter-spacing: -0.072;
+      letter-spacing: -0.072px;
     }
-
+    
     &-name {
       display: flex;
-      
     }
+
+    &-text {
+      font-size: 18px;
+      letter-spacing: -0.036px;
+      line-height: 22px;
+    }
+  }
+  
+  &__sup {
+    font-size: 11px;
+    letter-spacing: -0.036px;
+    line-height: 0;
   }
 }

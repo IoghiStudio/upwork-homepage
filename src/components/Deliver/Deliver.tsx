@@ -42,7 +42,7 @@ export const Deliver = () => {
 
               <div className="deliver__card-name">
                 <div className="deliver__card-text">
-                  {text}<sup>TM</sup>
+                  {text}<sup className='deliver__sup'>TM</sup>
                 </div>
 
                 <div className="deliver__icon"></div>
