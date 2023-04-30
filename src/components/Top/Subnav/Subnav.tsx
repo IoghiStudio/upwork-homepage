@@ -1,37 +1,35 @@
 import { useState } from "react";
 import './Subnav.scss';
 
+const subnavItems = [
+  'Development & IT',
+  'Design & Creative',
+  'Sales & Marketing',
+  'Writing & Translation',
+  'Admin & Customer Support',
+];
+
+const dropdownItems
 
 export const Subnav = () => {
-  const [isDropdownActive, setIsDropdownActive] = useState(false);
+  const [isDropdownHovered, setIsDropdownHovered] = useState(false);
+  const [isDropdownClicked, setIsDropdownClicked] = useState(false);
 
   return (
     <nav className="subnav">
       <ul className="subnav__list">
-        <li className="subnav__item">
-          Development & IT
-        </li>
+        {subnavItems.map(item => (
+          <li key={item} className="subnav__item">
+            {item}
+          </li>
 
-        <li className="subnav__item">
-          Design & Creative
-        </li>
-
-        <li className="subnav__item">
-          Sales & Marketing
-        </li>
-
-        <li className="subnav__item">
-          Writing & Translation
-        </li>
-
-        <li className="subnav__item">
-          Admin & Customer Support
-        </li>
+        ))}
 
         <li
           className="subnav__item"
-          onMouseEnter={() => setIsDropdownActive(true)}
-          onMouseLeave={() => setIsDropdownActive(false)}
+          onMouseEnter={() => setIsDropdownHovered(true)}
+          onMouseLeave={() => setIsDropdownHovered(false)}
+          onClick={() => setIsDropdownClicked(!isDropdownClicked)}
         >
           More 
 
@@ -39,9 +37,11 @@ export const Subnav = () => {
         </li>
       </ul>
 
-      {/* {isDropdownActive && (
+      {(isDropdownHovered || isDropdownClicked) && (
+        <div className="subnav__dropdown">
 
-      )} */}
+        </div>
+      )}
     </nav>
   )
 }

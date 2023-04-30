@@ -18,7 +18,6 @@
     font-weight: 500;
     letter-spacing: 0.4px;
 
-
     &:hover {
       text-decoration: underline;
       cursor: pointer;
@@ -46,7 +45,26 @@
     cursor: pointer;
   }
 
-  &-options {
+  &__dropdown {
+    position: absolute;
+    top: 60px;
+    left: 610px;
+    width: 250px;
+    height: 170px;
+    padding: 7px 0;
 
+    background-color: #fff;
+    box-shadow: rgba(0, 30,0, 0.15) 0 0 10px 2px;
+
+    &::before {
+      position: absolute;
+      top: -7px;
+      left: 219px;
+      content: "";
+      background-color: #fff;
+      border: 8px solid transparent;
+      transform: rotateZ(135deg);
+      box-shadow: -2px 2px 3px rgba(57,73,76,.1);;
+    }
   }
 }
