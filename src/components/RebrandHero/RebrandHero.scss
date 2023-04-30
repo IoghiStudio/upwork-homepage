@@ -5,6 +5,9 @@ span {
 .rebrandhero {
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
+  width: 1408px;
+  padding: 0 64px;
 
   &__image {
     width: 440px;
