@@ -5,6 +5,7 @@ import './Testimonials.scss';
 
 const bannersInfo = [
   {
+    id: 1,
     background: 'nasdaq',
     logo: 'nasdaq',
     description: '“Upwork enables us to differentiate ourselves from our competitors and produce content at a higher caliber.”',
@@ -21,6 +22,7 @@ const bannersInfo = [
     ]
   },
   {
+    id: 2,
     logo: 'microsoft',
     background: 'microsoft',
     description: '“One of the advantages of utilizing freelancers is finding talent with different skills quickly as our needs change.”',
@@ -40,7 +42,7 @@ const bannersInfo = [
 
 export const Testimonials = () => {
   const [bannersToLeft, setBannersToLeft] = useState(true);
-  // const [] = useState(true);
+  // const [bannerLoading] = useState(false);
 
   return (
     <div className="testimonials">
@@ -59,6 +61,7 @@ export const Testimonials = () => {
       >
         {bannersInfo.map(banner => {
           const {
+            id,
             background,
             logo,
             description,
@@ -70,7 +73,10 @@ export const Testimonials = () => {
             <div
               className={cn(
                 "testimonials__banner",
-                `testimonials__banner--${background}`
+                `testimonials__banner--${background}`,
+                {
+                  "testimonials__banner--disabled": id === 1 && !bannersToLeft,
+                }
               )}
             >
               <div className="testimonials__top">
@@ -105,7 +111,13 @@ export const Testimonials = () => {
         })}
 
         <div 
-          className="testimonials__banner testimonials__banner--last">
+          className={cn(
+            "testimonials__banner",
+            "testimonials__banner--last",
+            {
+              "testimonials__banner--disabled": bannersToLeft,
+            }
+          )}>
         </div>
       </div>
 

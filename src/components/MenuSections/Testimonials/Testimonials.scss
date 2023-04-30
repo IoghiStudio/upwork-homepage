@@ -34,6 +34,11 @@
     height: 450px;
     padding: 25px;
     border-radius: 10px;
+    transition: opacity 500ms;
+
+    &--disabled {
+      opacity: 0.3;
+    }
 
     &--nasdaq {
       background-color: #13544e;
