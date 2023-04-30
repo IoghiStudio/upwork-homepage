@@ -19,22 +19,46 @@
     padding: 17px;
     background-color: #108a00;
     border-radius: 8px;
+    cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: 150ms;
+
+    &:hover {
+      background-color: #fff;
+      color: #108a00;
+    }
 
     &-title {
       margin-bottom: 20px;
       font-size: 36px;
       line-height: 36px;
       letter-spacing: -0.072px;
+      font-weight: 600;
     }
     
     &-name {
       display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
     &-text {
       font-size: 18px;
       letter-spacing: -0.036px;
       line-height: 22px;
+    }
+
+    &-icon {
+      width: 15px;
+      height: 15px;
+      background-image: url('../../img/arrow-right-white.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      &--green {
+        background-image: url('../../img/arrow-right-green.svg');
+      }
     }
   }
   

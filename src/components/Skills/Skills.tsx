@@ -48,13 +48,23 @@ export const Skills = () => {
 
         <div className="skills__column">
           {skillsItems.slice(0, 16).map(item => (
-            <div className="skills__item">{item}</div>
+            <div 
+              key={item}
+              className="skills__item"
+            >
+              {item}
+            </div>
           ))}
         </div>
 
         <div className="skills__column">
           {skillsItems.slice(16).map(item => (
-            <div className="skills__item">{item}</div>
+            <div 
+              key={item}
+              className="skills__item"
+            >
+              {item}
+            </div>
           ))}
         </div>
       </div>
