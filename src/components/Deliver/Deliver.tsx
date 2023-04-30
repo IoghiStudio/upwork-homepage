@@ -24,7 +24,7 @@ const cardDetails = [
 ]; 
 
 export const Deliver = () => {
-  const [cardOnHover, setCardOnHover] = useState(false);
+  // const [cardOnHover, setCardOnHover] = useState(false);
   const [currentCardId, setCurrentCardId] = useState(0);
 
   return (
@@ -55,14 +55,8 @@ export const Deliver = () => {
             <div
               key={id}
               className="deliver__card"
-              onMouseEnter={() => {
-                setCardOnHover(true);
-                setCurrentCardId(id);
-              }}
-              onMouseLeave={() => {
-                setCardOnHover(false);
-                setCurrentCardId(0);
-              }}
+              onMouseEnter={() => setCurrentCardId(id)}
+              onMouseLeave={() => setCurrentCardId(0)}
             >
               <div className="deliver__card-title">
                 <div>{titleOne}</div>
@@ -78,7 +72,7 @@ export const Deliver = () => {
                   className={cn(
                     "deliver__card-icon",
                     {
-                      "deliver__card-icon--green": cardOnHover && id === currentCardId,
+                      "deliver__card-icon--green": id === currentCardId,
                     }
                   )}
                 ></div>
