@@ -10,13 +10,13 @@ export const ForTalent = () => {
           <div className="fortalent__headline">For talent</div>
 
           <h3 className="fortalent__title">
-            <span>Find great</span>
-            <span>work</span>
+            <div>Find great</div>
+            <div>work</div>
           </h3>
 
           <div className="fortalent__text">
-            <span>Meet clients you’re excited to work with and take</span>
-            <span>your career or business to new heights.</span>
+            <div>Meet clients you’re excited to work with and take</div>
+            <div>your career or business to new heights.</div>
           </div>
         </div>
 
