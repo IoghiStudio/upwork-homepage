@@ -7,7 +7,7 @@
   &__anim {
     height: 370px;
     width: 600px;
-    background-image: url('../../img/images/desktop-cover-image.jpeg');
+    background-image: url('../../../img/images/desktop-cover-image.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -37,15 +37,15 @@
     background-repeat: no-repeat;
 
     &--pin {
-      background-image: url('../../img/icons/pin.svg');
+      background-image: url('../../../img/icons/pin.svg');
     }
     
     &--star {
-      background-image: url('../../img/icons/star.svg');
+      background-image: url('../../../img/icons/star.svg');
     }
 
     &--notes {
-      background-image: url('../../img/icons/writing-notes.svg');
+      background-image: url('../../../img/icons/writing-notes.svg');
     }
   }
 

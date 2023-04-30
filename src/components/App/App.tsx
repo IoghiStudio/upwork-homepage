@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import { Header } from '../Top/Header/Header';
-import { Footer } from '../Footer';
+import { Footer } from '../Bottom/Footer';
 import { Subnav } from '../Top/Subnav';
 import { RebrandHero } from '../MenuSections/RebrandHero';
 import { HowToHire } from '../MenuSections/HowToHire';

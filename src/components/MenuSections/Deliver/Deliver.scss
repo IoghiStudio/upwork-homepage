@@ -4,7 +4,7 @@
   height: 616px;
   padding: 30px;
   color: #fff;
-  background-image: url('../../img/images/home-desk-image.jpg');
+  background-image: url('../../../img/images/home-desk-image.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -77,13 +77,13 @@
     &-icon {
       width: 15px;
       height: 15px;
-      background-image: url('../../img/icons/arrow-right-white.svg');
+      background-image: url('../../../img/icons/arrow-right-white.svg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
 
       &--green {
-        background-image: url('../../img/icons/arrow-right-green.svg');
+        background-image: url('../../../img/icons/arrow-right-green.svg');
       }
     }
   }

@@ -8,7 +8,7 @@
     width: 440px;
     height: 440px;
 
-    background-image: url('../../img/images/rebornhero-image.jpg');
+    background-image: url('../../../img/images/rebornhero-image.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -90,17 +90,17 @@
     
     &--microsoft {
       width: 107px;
-      background-image: url('../../img/icons/microsoft.svg');
+      background-image: url('../../../img/icons/microsoft.svg');
     }
 
     &--airbnb {
       width: 83px;
-      background-image: url('../../img/icons/airbnb.svg');
+      background-image: url('../../../img/icons/airbnb.svg');
     }
 
     &--bissell {
       width: 55px;
-      background-image: url('../../img/icons/bissell.svg');
+      background-image: url('../../../img/icons/bissell.svg');
     }
   }
 }

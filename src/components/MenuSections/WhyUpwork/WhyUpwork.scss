@@ -14,7 +14,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../img/images/whyupwork-image.png');
+    background-image: url('../../../img/images/whyupwork-image.png');
   }
 
   &__gray {
@@ -75,17 +75,17 @@
 
 
     &--star {
-      background-image: url('../../img/icons/star-white.svg');
+      background-image: url('../../../img/icons/star-white.svg');
     }
 
     &--money {
       width: 13px;
       height: 13px;
-      background-image: url('../../img/icons/dollar-icon.svg');
+      background-image: url('../../../img/icons/dollar-icon.svg');
     }
 
     &--check {
-      background-image: url('../../img/icons/check-icon.svg');
+      background-image: url('../../../img/icons/check-icon.svg');
     }
   }
 
@@ -160,14 +160,14 @@
       background-repeat: no-repeat;
 
       &--star {
-        background-image: url('../../img/icons/star-white.svg');
+        background-image: url('../../../img/icons/star-white.svg');
       }
 
       &--g2 {
         width: 30px;
         height: 30px;
         background-size: contain;
-        background-image: url('../../img/icons/g2-icon.svg');
+        background-image: url('../../../img/icons/g2-icon.svg');
       }
     }
 
