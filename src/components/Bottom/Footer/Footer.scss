@@ -150,6 +150,11 @@
 
     &-text {
       line-height: 22px;
+      
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
     }
   }
 }
