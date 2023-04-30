@@ -49,7 +49,14 @@ export const Testimonials = () => {
         <div>brands and startups</div>
       </h2>
 
-      <div className="testimonials__banners">
+      <div
+        className={cn(
+          "testimonials__banners",
+          {
+            "testimonials__banners--toLeft": !bannersToLeft,
+          }
+        )}
+      >
         {bannersInfo.map(banner => {
           const {
             background,
