@@ -1,4 +1,24 @@
 import './WhyUpwork.scss';
+import cn from 'classnames';
+
+
+const whyupworkItems = [
+  {
+    icon: 'star',
+    title: 'Proof of quality',
+    text: 'Check any pro’s work samples, client reviews, and identity verification.',
+  },
+  {
+    icon: 'money',
+    title: 'No cost until you hire',
+    text: 'Interview potential fits for your job, negotiate rates, and only pay for work you approve.',
+  },
+  {
+    icon: 'check',
+    title: 'Safe and secure',
+    text: 'Focus on your work knowing we help protect your data and privacy. We’re here with 24/7 support if you need it.',
+  }
+];
 
 
 export const WhyUpwork = () => {
@@ -6,64 +26,37 @@ export const WhyUpwork = () => {
     <div className="whyupwork">
       <div className="whyupwork__gray">
         <h2 className="whyupwork__title">
-          <span>Why businesses</span>
-          <span>turn to Upwork</span>
+          <div>Why businesses</div>
+          <div>turn to Upwork</div>
         </h2>
 
         <div className="whyupwork__list">
-          <div className="whyupwork__item">
-            <div className="whyupwork__icon-container">
-              <div className="whyupwork__icon-bg">
-                <div className="whyupwork__icon  whyupwork__icon--star"></div>
+          {whyupworkItems.map(item => {
+            const { icon, title, text} = item;
+
+            return (
+              <div className="whyupwork__item">
+                <div className="whyupwork__icon-container">
+                  <div className="whyupwork__icon-bg">
+                    <div className={cn(
+                      "whyupwork__icon",
+                      `whyupwork__icon--${icon}`
+                    )}></div>
+                  </div>
+                </div>
+
+                <div className="whyupwork__info">
+                  <h3 className="whyupwork__proof-title">
+                    {title}
+                  </h3>
+
+                  <div className="whyupwork__proof-text">
+                    {text}
+                  </div>
+                </div>
               </div>
-            </div>
-
-            <div className="whyupwork__info">
-              <h3 className="whyupwork__proof-title">
-                Proof of quality
-              </h3>
-
-              <div className="whyupwork__proof-text">
-                Check any pro’s work samples, client reviews, and identity verification.
-              </div>
-            </div>
-          </div>
-
-          <div className="whyupwork__item">
-            <div className="whyupwork__icon-container">
-              <div className="whyupwork__icon-bg">
-                <div className="whyupwork__icon  whyupwork__icon--money"></div>
-              </div>
-            </div>
-
-            <div className="whyupwork__info">
-              <h3 className="whyupwork__proof-title">
-                No cost until you hire
-              </h3>
-
-              <div className="whyupwork__proof-text">
-                Interview potential fits for your job, negotiate rates, and only pay for work you approve.
-              </div>
-            </div>
-          </div>
-
-          <div className="whyupwork__item">
-            <div className="whyupwork__icon-container">
-              <div className="whyupwork__icon-bg">
-                <div className="whyupwork__icon whyupwork__icon--check"></div>
-              </div>
-            </div>
-
-            <div className="whyupwork__info">
-              <h3 className="whyupwork__proof-title">
-                Safe and secure
-              </h3>
-
-              <div className="whyupwork__proof-text">
-                Focus on your work knowing we help protect your data and privacy. We’re here with 24/7 support if you need it.
-              </div>
-            </div>
-          </div>
+            )
+          })}
         </div>
       </div>
 

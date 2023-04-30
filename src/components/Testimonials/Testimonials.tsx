@@ -68,13 +68,8 @@ export const Testimonials = () => {
                   `testimonials__logo--${logo}`
                 )}></div>
     
-                <div className="testimonials__desc">
-                  {description}
-                </div>
-    
-                <div className="testimonials__author">
-                  {author}
-                </div>
+                <div className="testimonials__desc">{description}</div>
+                <div className="testimonials__author">{author}</div>
               </div>
     
               <div className="testimonials__bottom">
