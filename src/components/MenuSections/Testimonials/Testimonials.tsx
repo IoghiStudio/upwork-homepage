@@ -42,7 +42,6 @@ const bannersInfo = [
 
 export const Testimonials = () => {
   const [bannersToLeft, setBannersToLeft] = useState(true);
-  // const [bannerLoading] = useState(false);
 
   return (
     <div className="testimonials">
