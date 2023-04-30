@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/upwork-homepage/static/css/main.8f67e291.css",
-    "main.js": "/upwork-homepage/static/js/main.3810cae8.js",
+    "main.css": "/upwork-homepage/static/css/main.5590242f.css",
+    "main.js": "/upwork-homepage/static/js/main.ba5ed56d.js",
+    "static/media/nature-autumn-image.jpg": "/upwork-homepage/static/media/nature-autumn-image.d2f242a2933a50cdaaf4.jpg",
+    "static/media/nature-woods-image.jpg": "/upwork-homepage/static/media/nature-woods-image.7c30c93e142a09e51409.jpg",
     "static/media/whyupwork-image.png": "/upwork-homepage/static/media/whyupwork-image.cbae5ce2543da16f46e4.png",
     "static/media/rebornhero-image.jpg": "/upwork-homepage/static/media/rebornhero-image.15d245a9b4bba16a3383.jpg",
+    "static/media/desktop-cover-image.jpeg": "/upwork-homepage/static/media/desktop-cover-image.ee56a38b2933948fdb6f.jpeg",
     "static/media/ukraine-help.svg": "/upwork-homepage/static/media/ukraine-help.da2ef81a023576a08b56.svg",
     "static/media/microsoft-lg-light.svg": "/upwork-homepage/static/media/microsoft-lg-light.c9a3d9c5ba0205a1c9ae.svg",
     "static/media/microsoft.svg": "/upwork-homepage/static/media/microsoft.7aad257b0fe253034b82.svg",
@@ -33,11 +36,11 @@
     "index.html": "/upwork-homepage/index.html",
     "static/media/check-icon.svg": "/upwork-homepage/static/media/check-icon.307a69d5adc365a0d35b.svg",
     "static/media/arrow-up.svg": "/upwork-homepage/static/media/arrow-up.a47910d6f97a1569eb4b.svg",
-    "main.8f67e291.css.map": "/upwork-homepage/static/css/main.8f67e291.css.map",
-    "main.3810cae8.js.map": "/upwork-homepage/static/js/main.3810cae8.js.map"
+    "main.5590242f.css.map": "/upwork-homepage/static/css/main.5590242f.css.map",
+    "main.ba5ed56d.js.map": "/upwork-homepage/static/js/main.ba5ed56d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f67e291.css",
-    "static/js/main.3810cae8.js"
+    "static/css/main.5590242f.css",
+    "static/js/main.ba5ed56d.js"
   ]
 }
