@@ -92,6 +92,10 @@ export const Testimonials = () => {
             </div>
           )
         })}
+
+        <div 
+          className="testimonials__banner testimonials__banner--last">
+        </div>
       </div>
     </div>
   );

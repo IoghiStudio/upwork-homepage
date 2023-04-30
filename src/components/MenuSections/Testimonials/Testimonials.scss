@@ -1,7 +1,7 @@
 .testimonials {
   box-sizing: border-box;
   width: 1280px;
-  // background-color: #d5e0d5;
+  background-color: #d5e0d5;
 
   &__title {
     margin: 0 0 30px;
@@ -15,12 +15,14 @@
   &__banners {
     display: flex;
     gap: 30px;
+    overflow: hidden;
   }
 
   &__banner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-shrink: 0;
 
     box-sizing: border-box;
     width: 588px;
@@ -35,6 +37,15 @@
     &--microsoft {
       background-color: #bc511b;
     }
+
+    &--last {
+      background-position: center;
+      background-size: cover;
+      background-image: url('../../../img/images/home-desk-image.jpg')
+    }
+  }
+
+  &__last-banner {
   }
 
   &__logo {
