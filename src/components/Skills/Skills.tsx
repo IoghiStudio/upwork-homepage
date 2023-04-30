@@ -1,6 +1,42 @@
 import './Skills.scss';
 
 
+const skillsItems = [
+  'Data Entry Specialist',
+  'Video Editors',
+  'Data Analyst',
+  'Shopify Developer',
+  'Ruby on Rails Developer',
+  'Androi Developer',
+  'Bookkeeper',
+  'Content Writer',
+  'Copywriter',
+  'Database Administrator',
+  'Data Scientist',
+  'Front-End Developer',
+  'Game Developer',
+  'Graphic Designer',
+  'IOS Developer',
+  'Java Developer',
+  'JavaScript Developer',
+  'Logo Designer',
+  'Mobile App Developer',
+  'PHP Developer',
+  'Python',
+  'Resume Writer',
+  'SEO Expert',
+  'Social Media Manager',
+  'Software Developer',
+  'Software Engineer',
+  'Techincal Writer',
+  'UI Designer',
+  'UX Designer',
+  'Virtual Assistant',
+  'Web Designer',
+  'Wordpress Developer',
+]
+
+
 export const Skills = () => {
   return (
     <div className="skills">
@@ -13,41 +49,15 @@ export const Skills = () => {
         </div>
 
         <div className="skills__column">
-          <div className="skills__item">Data Entry Specialist</div>
-          <div className="skills__item">Video Editors</div>
-          <div className="skills__item">Data Analyst</div>
-          <div className="skills__item">Shopify Developer</div>
-          <div className="skills__item">Ruby on Rails Developer</div>
-          <div className="skills__item">Androi Developer</div>
-          <div className="skills__item">Bookkeeper</div>
-          <div className="skills__item">Content Writer</div>
-          <div className="skills__item">Copywrite</div>
-          <div className="skills__item">Database Administrator</div>
-          <div className="skills__item">Data Scientist</div>
-          <div className="skills__item">Front-End Developer</div>
-          <div className="skills__item">Game Developer</div>
-          <div className="skills__item">Graphic Designer</div>
-          <div className="skills__item">IOS Developer</div>
-          <div className="skills__item">Java Developer</div>
+          {skillsItems.slice(0, 16).map(item => (
+            <div className="skills__item">{item}</div>
+          ))}
         </div>
 
         <div className="skills__column">
-          <div className="skills__item">JavaScript Developer</div>
-          <div className="skills__item">Logo Designer</div>
-          <div className="skills__item">Mobile App Developer</div>
-          <div className="skills__item">PHP Developer</div>
-          <div className="skills__item">Python</div>
-          <div className="skills__item">Resume Writer</div>
-          <div className="skills__item">SEO Expert</div>
-          <div className="skills__item">Social Media Manager</div>
-          <div className="skills__item">Software Developer</div>
-          <div className="skills__item">Software Engineer</div>
-          <div className="skills__item">Techincal Writer</div>
-          <div className="skills__item">UI Designer</div>
-          <div className="skills__item">UX Designer</div>
-          <div className="skills__item">Virtual Assistant</div>
-          <div className="skills__item">Web Designer</div>
-          <div className="skills__item">Wordpress Developer</div>
+          {skillsItems.slice(16).map(item => (
+            <div className="skills__item">{item}</div>
+          ))}
         </div>
       </div>
     </div>

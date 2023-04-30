@@ -22,36 +22,34 @@ const cardDetails = [
 export const Deliver = () => {
   return (
     <div className="deliver">
-      <div className="deliver__content">
 
 
 
-        <div className="deliver__cards">
-          {cardDetails.map(card => {
-            const { 
-              titleOne,
-              titleTwo,
-              text,
-            } = card;
+      <div className="deliver__cards">
+        {cardDetails.map(card => {
+          const { 
+            titleOne,
+            titleTwo,
+            text,
+          } = card;
 
-            return (
-              <div className="deliver__card">
-                <div className="deliver__card-title">
-                  <span>{titleOne}</span>
-                  <span>{titleTwo}</span>
-                </div>
-
-                <div className="deliver__card-name">
-                  <div className="deliver__card-text">
-                    {text}<sup>TM</sup>
-                  </div>
-
-                  <div className="deliver__icon"></div>
-                </div>
+          return (
+            <div className="deliver__card">
+              <div className="deliver__card-title">
+                <span>{titleOne}</span>
+                <span>{titleTwo}</span>
               </div>
-            )
-          })}
-        </div>
+
+              <div className="deliver__card-name">
+                <div className="deliver__card-text">
+                  {text}<sup>TM</sup>
+                </div>
+
+                <div className="deliver__icon"></div>
+              </div>
+            </div>
+          )
+        })}
       </div>
     </div>
   )
