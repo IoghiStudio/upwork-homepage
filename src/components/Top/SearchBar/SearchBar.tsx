@@ -22,7 +22,10 @@ const dropdownLinks = [
 
 export const SearchBar = () => {
   const [isDropdownActive, setIsDropdownActive] = useState(false);
+  const [currentActiveLink, setCurrentActiveLink] = useState(dropdownLinks[0].title);
+
   const [onHover, setOnHover] = useState(false);
+  
 
   return (
     <div
@@ -56,7 +59,7 @@ export const SearchBar = () => {
           },
         )}
       >
-        Talent
+        {currentActiveLink}
 
         <div className="searchbar__arrow"></div>
       </div>
@@ -72,24 +75,34 @@ export const SearchBar = () => {
             const { id, title, text } = link;
 
             return (
-              <React.Fragment key={id} >
-                <div className="searchbar__link-container">
-                  <div className={classNames(
-                    "searchbar__link-icon",
-                    `searchbar__link-icon--${title}`
-                  )}></div>
+              <div
+                key={id}
+                className={classNames(
+                  "searchbar__link-container",
+                  {
+                    "searchbar__link-container--active": currentActiveLink === title
+                  }
+                )}
+                onClick={() => {
+                  setCurrentActiveLink(title);
+                  setIsDropdownActive(false);
+                }}
+              >
+                <div className={classNames(
+                  "searchbar__link-icon",
+                  `searchbar__link-icon--${title}`
+                )}></div>
 
-                  <div className="searchbar__link">
-                    <div className="searchbar__link-title">
-                      {title}
-                    </div>
+                <div className="searchbar__link">
+                  <div className="searchbar__link-title">
+                    {title}
+                  </div>
 
-                    <div className="searchbar__link-text">
-                      {text}
-                    </div>
+                  <div className="searchbar__link-text">
+                    {text}
                   </div>
                 </div>
-              </React.Fragment>
+              </div>
             )
           })}
         </div>
