@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/upwork-homepage/static/css/main.cdda4a77.css",
+    "main.css": "/upwork-homepage/static/css/main.f5e0b585.css",
     "main.js": "/upwork-homepage/static/js/main.77d9c7af.js",
     "static/media/studio-image.jpg": "/upwork-homepage/static/media/studio-image.05e9eace7c89c8be48fa.jpg",
     "static/media/home-desk-image.jpg": "/upwork-homepage/static/media/home-desk-image.ef07b052d8df8fc1b384.jpg",
@@ -24,6 +24,7 @@
     "static/media/twt-logo.svg": "/upwork-homepage/static/media/twt-logo.72fc347898513a9f10b1.svg",
     "static/media/yt-logo.svg": "/upwork-homepage/static/media/yt-logo.686d5331b9804e4aab01.svg",
     "static/media/g2-icon.svg": "/upwork-homepage/static/media/g2-icon.b4ab5d2e4ab201e066bb.svg",
+    "static/media/in-logo.svg": "/upwork-homepage/static/media/in-logo.2c94392b2938489183df.svg",
     "static/media/writing-notes.svg": "/upwork-homepage/static/media/writing-notes.8c427659c188cbc7da44.svg",
     "static/media/dropdown-jobs.svg": "/upwork-homepage/static/media/dropdown-jobs.d96357aab27dff67ad4a.svg",
     "static/media/search.svg": "/upwork-homepage/static/media/search.eee377b999ee7ab0ed11.svg",
@@ -36,11 +37,11 @@
     "index.html": "/upwork-homepage/index.html",
     "static/media/check-icon.svg": "/upwork-homepage/static/media/check-icon.307a69d5adc365a0d35b.svg",
     "static/media/arrow-up.svg": "/upwork-homepage/static/media/arrow-up.a47910d6f97a1569eb4b.svg",
-    "main.cdda4a77.css.map": "/upwork-homepage/static/css/main.cdda4a77.css.map",
+    "main.f5e0b585.css.map": "/upwork-homepage/static/css/main.f5e0b585.css.map",
     "main.77d9c7af.js.map": "/upwork-homepage/static/js/main.77d9c7af.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdda4a77.css",
+    "static/css/main.f5e0b585.css",
     "static/js/main.77d9c7af.js"
   ]
 }
