@@ -2,7 +2,6 @@
   position: relative;
   box-sizing: border-box;
   width: 1280px;
-  background-color: #d5e0d5;
 
   &__title {
     margin: 0 0 30px;
@@ -44,9 +43,6 @@
       background-size: cover;
       background-image: url('../../../img/images/home-desk-image.jpg')
     }
-  }
-
-  &__last-banner {
   }
 
   &__logo {
