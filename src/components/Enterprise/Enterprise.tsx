@@ -18,20 +18,20 @@ export const Enterprise = () => {
         </div>
 
         <div className="enterprise__text">
-          <span className="enterprise__text--mt16">
+          <div className="enterprise__text--mt16">
             Access expert talent to fill your skill gaps
-          </span>
+          </div>
 
-          <span className="enterprise__text--mt12">
+          <div className="enterprise__text--mt12">
             Control your workflow: hire, classify and pay your talent
-          </span>
+          </div>
 
-          <span className="enterprise__text--mt12">
+          <div className="enterprise__text--mt12">
             Partner with Upwork for end-to-end support
-          </span>
+          </div>
         </div>
 
-        <div className="enterprise__button--">Learn More</div>
+        <div className="enterprise__button">Learn More</div>
       </div>
     </div>
   )
