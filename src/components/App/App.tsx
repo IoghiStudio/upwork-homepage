@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.scss';
-import { Header } from '../Header/Header';
+import { Header } from '../Top/Header/Header';
 import { Footer } from '../Footer';
-import { Subnav } from '../Subnav';
-import { RebrandHero } from '../RebrandHero';
-import { HowToHire } from '../HowToHire';
-import { Category } from '../Category';
-import { Skills } from '../Skills';
-import { UkraineBanner } from '../UkraineBanner';
-import { Testimonials } from '../Testimonials';
-import { WhyUpwork } from '../WhyUpwork';
-import { ForTalent } from '../ForTalent';
-import { Enterprise } from '../Enterprise';
-import { Deliver } from '../Deliver';
+import { Subnav } from '../Top/Subnav';
+import { RebrandHero } from '../MenuSections/RebrandHero';
+import { HowToHire } from '../MenuSections/HowToHire';
+import { Category } from '../MenuSections/Category';
+import { Skills } from '../MenuSections/Skills';
+import { UkraineBanner } from '../MenuSections/UkraineBanner';
+import { Testimonials } from '../MenuSections/Testimonials';
+import { WhyUpwork } from '../MenuSections/WhyUpwork';
+import { ForTalent } from '../MenuSections/ForTalent';
+import { Enterprise } from '../MenuSections/Enterprise';
+import { Deliver } from '../MenuSections/Deliver';
 
 
 export const App = () => {
