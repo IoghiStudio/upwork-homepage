@@ -11,6 +11,8 @@ import { UkraineBanner } from '../UkraineBanner';
 import { Testimonials } from '../Testimonials';
 import { WhyUpwork } from '../WhyUpwork';
 import { ForTalent } from '../ForTalent';
+import { Enterprise } from '../Enterprise';
+import { Deliver } from '../Deliver';
 
 
 export const App = () => {
@@ -35,6 +37,14 @@ export const App = () => {
 
         <div className="app__category">
           <Category />
+        </div>
+
+        <div className="app__enterprise">
+          <Enterprise />
+        </div>
+
+        <div className="app__deliver">
+          <Deliver />
         </div>
 
         <div className="app__whyupwork">

@@ -31,7 +31,7 @@ body {
     padding: 0 64px 100px;
     max-width: 1600px;
 
-    @media (min-width: 1600px) {
+    @media (min-width: 1700px) {
       margin: 0 auto;
     }
   }
@@ -48,13 +48,18 @@ body {
     margin: 0 0 80px;
   }
 
+  &__enterprise {
+    margin: 0 50px;
+  }
+
+  &__deliver {
+    margin-top: 50px;
+  }
+
   &__whyupwork {
     margin: 100px 0 0 0;
   }
 
-  &__fortalent {
-    
-  }
 
   &__testimonials {
     margin: 85px 122px 0;

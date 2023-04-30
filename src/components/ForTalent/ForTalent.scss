@@ -2,7 +2,6 @@
   display: flex;
   box-sizing: border-box;
   padding: 50px 64px 0;
-  background-color: antiquewhite;
   width: 1408px;
   height: 730px;
   color: #fff;
@@ -10,7 +9,9 @@
   &__image {
     width: 640px;
     height: 100%;
-    background-color: rgb(162, 177, 177);
+    background-color: #d5e9f3;
+    box-shadow: rgba(0, 30,0, 0.45) 0 0 10px 2px;
+
   }
 
   &__content {
@@ -18,7 +19,7 @@
     width: 640px;
     padding: 30px;
     height: 100%;
-    background-color: rgb(38, 87, 195);
+    background-color: #2657c3;
   }
 
   &__info {
@@ -53,5 +54,45 @@
   &__divider {
     border-bottom: 1px solid #fff;
     margin: 18px 0;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    box-sizing: border-box;
+    width: 193px;
+    height: 88.53px;
+    padding: 0 15px 20px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.09px;
+    
+
+    &:nth-child(1) {
+      width: 194px;
+      padding-left: 0;
+    }
+  }
+
+  &__button {
+    box-sizing: border-box;
+    width: 185px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.32px;
+    background-color: #fff;
+    color: #2657c3;;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
   }
 }

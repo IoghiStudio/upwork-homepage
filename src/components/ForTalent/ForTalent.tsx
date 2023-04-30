@@ -23,7 +23,21 @@ export const ForTalent = () => {
         <div className="fortalent__divider"></div>
 
         <div className="fortalent__footer">
+          <div className="fortalent__list">
+            <div className="fortalent__item">
+              Find opportunities for every stage of your freelance career
+            </div>
 
+            <div className="fortalent__item">
+              Control when, where, and how you work
+            </div>
+
+            <div className="fortalent__item">
+              Explore different ways to earn
+            </div>
+          </div>
+
+          <div className="fortalent__button">Find opportunities</div>
         </div>
       </div>
     </div>
