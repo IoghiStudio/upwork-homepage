@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import cn from 'classnames';
 import './Testimonials.scss';
 
@@ -35,9 +36,12 @@ const bannersInfo = [
       },
     ]
   }
-]
+];
 
 export const Testimonials = () => {
+  const [bannersToLeft, setBannersToLeft] = useState(true);
+  // const [] = useState(true);
+
   return (
     <div className="testimonials">
       <h2 className="testimonials__title">
@@ -97,6 +101,26 @@ export const Testimonials = () => {
           className="testimonials__banner testimonials__banner--last">
         </div>
       </div>
+
+      {!bannersToLeft ? (
+        <div
+          className="testimonials__button"
+          onClick={() => setBannersToLeft(true)}
+        >
+          <div 
+            className="testimonials__icon testimonials__icon--left"
+          ></div>
+        </div>
+      ) : (
+        <div
+          className="testimonials__button testimonials__button--right"
+          onClick={() => setBannersToLeft(false)}
+        >
+          <div 
+            className="testimonials__icon"
+          ></div>
+        </div>
+      )}
     </div>
   );
 }
