@@ -1,4 +1,7 @@
 .category {
+  box-sizing: border-box;
+  width: 1408px;
+  padding: 0 64px;
 
   &__title {
     margin: 1px 0 10px;
@@ -38,7 +41,7 @@
   &__item {
     box-sizing: border-box;
     height: 134px;
-    width: 344px;
+    width: 296px;
     padding: 20px 20px 52px 20px;
     border: 1px solid transparent;
     border-radius: 8px;
