@@ -1,6 +1,9 @@
 .howtohire {
   display: flex;
   gap: 32px;
+  box-sizing: border-box;
+  width: 1408px;
+  padding: 0 64px;
 
   &__anim {
     height: 370px;
