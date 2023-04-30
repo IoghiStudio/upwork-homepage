@@ -29,8 +29,18 @@ export const Deliver = () => {
 
   return (
     <div className="deliver">
+      <div className="deliver__headline">For clients</div>
 
+      <h2 className="deliver__title">
+        <div>Find talent</div>
+        <div>your way</div>
+      </h2>
 
+      <div className="deliver__subtitle">
+        <div>Work with the largest network of independent</div>
+        <div>professionals and get things done—from quick </div>
+        <div>turnarounds to big transformations.</div>
+      </div>
 
       <div className="deliver__cards">
         {cardDetails.map(card => {
